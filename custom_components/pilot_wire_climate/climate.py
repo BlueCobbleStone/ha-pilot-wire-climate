@@ -37,12 +37,12 @@ from .const import (CONF_ADDITIONAL_MODES, CONF_POWER, CONF_POWER_THRESHOLD, CON
 _LOGGER = logging.getLogger(__name__)
 
 
-VALUE_OFF = "off"
-VALUE_FROST = "frost_protection"
-VALUE_ECO = "eco"
-VALUE_COMFORT_2 = "comfort_-2"
-VALUE_COMFORT_1 = "comfort_-1"
-VALUE_COMFORT = "comfort"
+VALUE_OFF = "Off"
+VALUE_FROST = "FrostProtection"
+VALUE_ECO = "Eco"
+VALUE_COMFORT_2 = "ComfortMinus2"
+VALUE_COMFORT_1 = "ComfortMinus1"
+VALUE_COMFORT = "Comfort"
 
 
 PLATFORM_SCHEMA_COMMON = vol.Schema(
@@ -281,7 +281,7 @@ class PilotWireClimate(ClimateEntity, RestoreEntity):
                 PRESET_COMFORT,
                 PRESET_COMFORT_1,
                 PRESET_COMFORT_2,
-                PRESET_ECO,
+                PRESET_,
                 PRESET_AWAY,
                 PRESET_NONE,
             ]
