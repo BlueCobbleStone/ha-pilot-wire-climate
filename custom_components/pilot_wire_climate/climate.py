@@ -281,7 +281,7 @@ class PilotWireClimate(ClimateEntity, RestoreEntity):
                 PRESET_COMFORT,
                 PRESET_COMFORT_1,
                 PRESET_COMFORT_2,
-                PRESET_,
+                PRESET_ECO,
                 PRESET_AWAY,
                 PRESET_NONE,
             ]
